@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/Boostrapcss/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+    <title>Practica Consolidacion</title>
+</head>
+<body onload="asignarEventos()">
+    <div class="container">
+        <div class="row">
+            <div class="col-2 timeline">
+                <!-- Elemento 1-5 -->
+                <div class="timeline-item">
+                    <div class="col-12 timeline-point colorRojo" id="divPopulares"></div>
+                    <div class="timeline-label">1-5</div>
+                </div>
+                <!-- Elemento 6-11 -->
+                <div class="timeline-item">
+                    <div class="col-12 timeline-point colorVerde" id="divSecundarios"></div>
+                    <div class="timeline-label">6-11</div>
+                </div>
+                <!-- Elemento 12-17 -->
+                <div class="timeline-item">
+                    <div class="col-12 timeline-point colorAzul" id="divOtros"></div>
+                    <div class="timeline-label">12-17</div>
+                </div>
+            </div>
+            <div class="col-10 bg-info">
+                <div id="contenedorCards">
+                    <!-- Aquí puedes añadir contenido adicional -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <button id="btnConsumo">Consumir API</button>
+
+<script src="./assets/js/Boostrapjs/bootstrap.bundle.js"></script>
+<script src="./assets/js/logica.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+.timeline {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px;
+    height: 100;
+}
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 4px;
+    background-color: #e0e0e0;
+    transform: translateX(-50%);
+}
+/* Estilo para cada punto de la línea de tiempo */
+.timeline-point {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    background-color: #ffc107; /* Color del punto */
+    border-radius: 50%;
+    
+}
+
+/* Estilo para el texto */
+.timeline-label {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+.timeline-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: auto;
+    position: relative;
+}
+
+
+
+.estilosCards{
+    display: inline-block;
+}
+
+.col-2.timeline{
+    background-image: url('../img/starwars.jpg');
+    background-size: cover; /* Ajusta la imagen para que cubra todo el área */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.col-10.bg-info{
+    background-image: url('../img/starwars1.jpg');
+    background-size: cover; /* Ajusta la imagen para que cubra todo el área */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.colorRojo{
+    background-color: lightsalmon;
+   
+}
+
+
+.circuloRojo{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: lightsalmon;
+    display: inline-block;
+}
+
+.colorVerde{
+    background-color: lightgreen;   
+ 
+}
+
+.circuloVerde{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: lightgreen;
+    display: inline-block;
+}
+
+.colorAzul{
+    background-color: lightseagreen; 
+   
+}
+
+.circuloAzul{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: lightseagreen;
+    display: inline-block;
+}
+
+.circuloDefault{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: blueviolet;
+    display: inline-block;
+}
